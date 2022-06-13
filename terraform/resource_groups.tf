@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "project" {
-  name     = var.project_name
+  name     = "sharanya-rg"
   location = var.region
 }
